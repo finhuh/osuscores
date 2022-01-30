@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.test-class-haha {
+  width: 33%;
+  max-width: 500px;
+  height: 95%;
+}
+
+.card-stack {
+  padding:25px;
+  height: 900px;
+  width:100%;
+  row-gap:100px;
+  column-gap:10px;
+  justify-content: center;
+}
