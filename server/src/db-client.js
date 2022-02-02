@@ -4,6 +4,8 @@ module.exports = class DbClient {
     }
 
     save(){
-        // save to mongo db
+        const db = client.db('osustats');
+        console.log('Connected to mongo atlas');
+        const beatmaps = db.collection('beatmaps');
     }
 }
